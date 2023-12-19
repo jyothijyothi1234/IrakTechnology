@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .popup-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .popup-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .popup-container:hover .popup-content {
+      display: block;
+    }
+  </style>
+  <title>Popup Example</title>
+</head>
+<body>
+
+  <div class="popup-container">
+    <a href="#">Hover me</a>
+    <div class="popup-content">
+      <!-- Your popup content goes here -->
+      <p>This is the popup content.</p>
+    </div>
+  </div>
+
+</body>
+</html>
