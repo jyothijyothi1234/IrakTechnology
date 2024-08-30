@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text on Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+ .image-container {
+           position: relative; 
+             max-width: 100%; 
+        } 
+
+        /* .image-container img {
+            max-width: 100%;
+            height: 7000;
+            display: block;
+        }  */
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* transform: translate(-50%, -50%); */
+            color: blue;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="https://media.istockphoto.com/id/178447404/photo/modern-business-buildings.jpg?s=612x612&w=0&k=20&c=MOG9lvRz7WjsVyW3IiQ0srEzpaBPDcc7qxYsBCvAUJs=" alt="Your Image">
+        <div class="text-overlay">hai jyothi </div>
+        <!-- <div class="text-overlay">how are you </div> -->
+      
+
+    </div>
+
+</body>
+</html>
